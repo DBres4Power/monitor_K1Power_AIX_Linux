@@ -76,7 +76,7 @@ Grafana是一个跨平台的开源的度量分析和可视化工具，可以通�
 
 采用nimon采集AIX，VIOS，Linux性能指标数据，输出直接push到InfluxDB数据库中，Grafana配置InfluxDB数据源实时读取监控数据，来实现性能指标实时可视化监控。其它各个数据库和应用，启动监控exporter，pull到Prometheus中，Grafana读Prometheus数据源做可视化展示。
 
-![image](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_2_Nimon%2BInfluxData%2BPrometheus%2BGrafana/Solution_1.jpg)
+![image](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_1_Njmon%2BInfluxDB%2BGrafana/Solution_1.jpg)
 
 # 可视化监控方案二
 
