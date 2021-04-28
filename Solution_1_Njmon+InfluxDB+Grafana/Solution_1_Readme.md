@@ -95,4 +95,4 @@ http://xxx.xxx.xxx.xxx:3000
 
 # 3.2	配置InfluxDB数据源, 配置dashboard
 
-* [详见：nimon+InfluxDB+Prometheus+Grafana实现AIX与Linux性能指标实时可视化监控]()
+* [详见：nimon+InfluxDB+Prometheus+Grafana实现AIX与Linux性能指标实时可视化监控](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/releases/download/nimon_solution/Nimon.InfluxDB.Prometheus.Grafana_Solutions.pdf)
