@@ -72,19 +72,23 @@ Grafana是一个跨平台的开源的度量分析和可视化工具，可以通�
 
   6 过滤器：Ad-hoc过滤器允许动态创建新的键/值过滤器，这些过滤器会自动应用于使用该数据源的所有查询。
 
-# 可视化监控方案一
+# 可视化监控方案一: Njmon+InfluxDB+Grafana
 
 采用nimon采集AIX，VIOS，Linux性能指标数据，输出直接push到InfluxDB数据库中，Grafana配置InfluxDB数据源实时读取监控数据，来实现性能指标实时可视化监控。其它各个数据库和应用，启动监控exporter，pull到Prometheus中，Grafana读Prometheus数据源做可视化展示。
 
 ![image](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_1_Njmon%2BInfluxDB%2BGrafana/Solution_1.jpg)
 
-# 可视化监控方案二
+* [详见Solution_1_Readme](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_1_Njmon%2BInfluxDB%2BGrafana/Solution_1_Readme.md)
+
+# 可视化监控方案二: Nimon+InfluxData+Prometheus+Grafana
 
 目前Prometheus较为流行，很多上层数据库和应用都围绕Prometheus开发了监控exporter agent，此方案将可视化监控数据源统一为Prometheus。
 我们可以将nimon采集AIX，VIOS，Linux性能指标数据push到Influxdata（含InfluxDB+Telegraf）中的监控数据，Prometheus经Telegraf  pull监控数据。
 然后Grafana配置Prometheus数据源实时读取监控数据，来实现性能指标实时可视化监控。并通过Prometheus的Alert Manager组件实现告警。如下图示：
 
 ![image](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_2_Nimon%2BInfluxData%2BPrometheus%2BGrafana/Solution_2.jpg)
+
+* [详见Solution_2_Readme](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_2_Nimon%2BInfluxData%2BPrometheus%2BGrafana/Solution_2_Readme.md)
 
 # Mail list
 
