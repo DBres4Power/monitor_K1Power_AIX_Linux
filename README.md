@@ -92,4 +92,4 @@ Grafana是一个跨平台的开源的度量分析和可视化工具，可以通�
 
 # Mail list
 
-nikelsq@outlook.com
+nikelsq@sina.com
