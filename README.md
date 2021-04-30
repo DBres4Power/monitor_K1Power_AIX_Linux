@@ -1,5 +1,5 @@
 # monitor_Power_AIX_Linux
-介绍K1 Power服务器，AIX/VIOS/Linux系统可视化监控解决方案
+介绍Power服务器，AIX/VIOS/Linux系统可视化监控解决方案
 
 # 可视化监控工具组件介绍
 
