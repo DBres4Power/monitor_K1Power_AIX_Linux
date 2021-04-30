@@ -1,6 +1,6 @@
 # 可视化监控方案一: Njmon+InfluxDB+Grafana
 
-![image](https://github.com/DBres4Power/monitor_K1Power_AIX_Linux/blob/main/Solution_1_Njmon%2BInfluxDB%2BGrafana/Solution_1.jpg)
+![image](https://github.com/DBres4Power/monitor_Power_AIX_Linux/blob/main/Solution_1_Njmon%2BInfluxDB%2BGrafana/Solution_1.jpg)
 
 # 方案实施步骤
 
